@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/input.css" />
-    <title>Document</title>
+    <title>Football Wootball</title>
   </head>
   <body class="h-screen bg-black font-serif">
-    
-
     <!-- navbar starts -------------------- -->
     <header class="bg-black h-14">
       <nav>
-        <div class="flex absolute  h-10 w-8 justify-start  ml-10 pt-3">
+        <div class="flex absolute h-10 w-8 justify-start ml-10 pt-3">
           <a href="#"
             ><img
               class="object-contain h-8 w-28"
@@ -22,38 +20,48 @@
           /></a>
         </div>
 
-        <div class="mr-20 pt-2 ">
+        <div class="mr-20 pt-2">
           <ul
-            class=" flex text-red-500 bg-black space-x-14 tracking-widest text-2xl justify-end "
+            class="flex text-blue-200 bg-black space-x-14 tracking-widest text-2xl justify-end"
           >
-            <li class="hover:text-blue-200 "><a href="#">Home</a></li>
-            <li class="hover:text-blue-200"><a href="#">About</a></li>
-            <li class="hover:text-blue-200"><a href="#">Work</a></li>
+            <li class="hover:text-red-500"><a href="#">Home</a></li>
+            <li class="hover:text-red-500"><a href="#">About</a></li>
+            <li class="hover:text-red-500"><a href="#">Work</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <!-- navbar ends -------------------- -->
 
-    <!-- <div class=" flex relative w-11/12 bg-purple-700  overflow-x-hiden mx-11 " >
-
-    </div> -->
-
     
 
+    <div
+      class="absolute h-4/5 w-full bg-no-repeat bg-center bg-cover"
+      style="background-image: url('Images/Old_trafford_42.jpg')"
+    >
+      <div
+        class="absolute text-white rounded-r-2xl w-full"
+        style="background-color: rgba(0, 0, 0, 0.4)"
+      >
+        <h1
+          class="flex w-auto text-8xl tracking-tighter leading-loose font-medium mx-20 p-1"
+        >
+          Welcome To Football Wootball
+        </h1>
+        
+        <a href="https://www.youtube.com/channel/UCo1QWp66xKG4xLuNXlBIoiA" target="_blank">
+        <button type="button" class="flex mx-auto focus:outline-none text-white bg-red-500 text-2xl px-7 py-2 mb-2 rounded-full  hover:bg-black hover:border-blue-300 hover:border-2  ">Watch Video</button></a>
 
-    <div class="h-4/5 w-full bg-no-repeat bg-center bg-cover " style="background-image: url('Images/Old_trafford_42.jpg')">
+        <div class="overflow-hidden p-3 mx-6 absolute h-72 w-72 bg-red-800 rounded-xl  flow-root right-0 -my-4 " >
 
-      <div class="absolute text-white rounded-r-2xl w-full" style="background-color: rgba(0,0,0,.6);">
-        <h1 class="flex w-auto text-8xl tracking-tighter leading-loose font-medium mx-20  ">Welcome To Football Wootball</h1>
+          <img class="p-2 rounded-2xl border-black border-2" src="Images/ronaldo_222.webp " alt="">
+          
+          <a href="https://www.youtube.com/channel/UCo1QWp66xKG4xLuNXlBIoiA" target="_blank">
+            <button type="button" class="flex mx-auto my-5 border-2 border-white focus:outline-none text-white bg-red-500 text-xl px-6 py-1 mb-2 rounded-full  hover:bg-black hover:border-blue-300 hover:border-2  ">Latest Video</button></a>
+
+        </div>
+
       </div>
-    
-    
     </div>
-
-
-
-
-
   </body>
 </html>
