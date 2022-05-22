@@ -35,7 +35,7 @@
 
     <!-- div for banner -->
     <div
-      class="h-5/6 w-full bg-no-repeat bg-center bg-cover relative mb-2"
+      class="h-full w-full bg-no-repeat bg-center bg-cover relative mb-2"
       style="background-image: url('Images/Old_trafford_42.jpg')"
     >
       <div
@@ -69,7 +69,7 @@
 
       <!-- div for latest card -->
       <div
-        class="flex justify-center align-middle w-80 h-72 absolute bottom-0 right-0 mr-2 mb-2"
+        class="flex justify-center align-middle w-80 h-72 absolute bottom-0 right-0 mr-12 mb-12"
       >
         <div class="p-2 bg-red-800 rounded-xl flow-root">
           <img
@@ -95,86 +95,229 @@
     <!-- end of banner -->
 
     <!-- start of div for article  -->
-    <div
-      class="flex  my-8  p-6 bg-gray-600"
-     
-    >
-      <!-- div for latest article pic -->
-      <div class="w-4/6 border-2 border-white rounded-lg">
-        <img class="rounded-lg h-full object-cover" src="/Images/Erik_Ten_Hag.jpg" alt="" />
-      </div>
+    <a href="#">
+      <div class="flex my-8 mx-14 p-2 rounded-lg">
+        <!-- div for latest article pic -->
+        <div class="w-4/6 border-2 border-white rounded-lg">
+          <img
+            class="rounded-lg h-full object-cover"
+            src="/Images/Erik_Ten_Hag.jpg"
+            alt=""
+          />
+        </div>
 
-      <!-- div for info on article  -->
-      <div class="bg-gray-300 ml-12 border-2 border-white rounded-lg">
-        <div class="ml-6 mt-4 mb-1 p-1 mr-6">
-          <p class="text-xl tracking-tighter leading-none">Top Story</p>
-        </div>
-        <div class="ml-6 mb-4 p-1 mr-6">
-          <h1 class="text-2xl font-extrabold leading-none tracking-tighter">
-            EXCLUSIVE: Erik Ten Hag is the new manchester united manager
-          </h1>
-        </div>
-        <hr />
-        <div class="ml-6 mt-4 mb-2 p-2 text-xl mr-6">
-          <span class="mr-4">Simon Stone</span>
-          <span>23/05/2022</span>
-        </div>
-        <div class="ml-6 mt-2 p-1 mr-6">
-          <p>
-            The new revolution at manchester united starts with the appointment
-            of erik ten hag
-          </p>
-        </div>
-        <div class="mx-auto mt-4 mb-8 flex justify-center h-12 ">
-          <button
-            type="button"
-            class="focus:outline-none text-white bg-black border-blue-400 border-2 text-xl px-7 py-2 rounded-full hover:bg-red-500 hover:border-black hover:border-2"
-          >
-            Latest Article
-          </button>
+        <!-- div for info on article  -->
+        <div class="bg-gray-300 ml-12 border-2 border-white rounded-lg">
+          <div class="ml-6 mt-4 mb-1 p-1 mr-6">
+            <p class="text-xl tracking-tighter leading-none">Top Story</p>
+          </div>
+          <div class="ml-6 mb-4 p-1 mr-6">
+            <h1 class="text-2xl font-extrabold tracking-tight">
+              EXCLUSIVE: Erik Ten Hag is the new manchester united manager
+            </h1>
+          </div>
+          <hr />
+          <div class="ml-6 mt-4 mb-2 p-2 text-xl mr-6">
+            <span class="mr-4 font-semibold text-gray-700">Simon Stone</span>
+            <span class="font-semibold text-gray-700">23/05/2022</span>
+          </div>
+          <hr />
+          <div class="ml-6 mt-3 p-1 mr-6 text-xl">
+            <p>
+              The new revolution at manchester united starts with the
+              appointment of erik ten hag
+            </p>
+          </div>
+          <div class="mx-auto mt-8 mb-4 flex justify-center h-12">
+            <button
+              type="button"
+              class="focus:outline-none text-white bg-black border-blue-400 border-2 text-xl px-7 py-2 rounded-full hover:bg-red-500 hover:border-black hover:border-2"
+            >
+              Latest Article
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </a>
     <!-- end of div for article  -->
 
     <!-- start of floating cards -->
-    <div class="  my-8  p-2 bg-white  w-full  "> 
+    <div class="my-8 w-full">
+      <div class="mx-14 flex flex-wrap justify-between">
+        
+        <!-- div for card-1   -->
+        <a href="#">
+          <div class="w-72 my-4 rounded-tl-2xl rounded-tr-2xl p-3 bg-white hover:bg-gray-200">
+            <!-- image div for card  -->
+            <div class="">
+              <img
+                class="h-72 object-cover w-full rounded-2xl"
+                src="/Images/ronaldo_222.webp"
+                alt=""
+              />
+            </div>
 
-      <div class="flex flex-wrap mx-10 bg-red-500 justify-between">
-      <!-- div for card-1   -->
-      <div class=" w-72 bg-pink-400">
-        <!-- image div for card  -->
-        <div class=" ">
-          <img class="h-96 object-cover w-full" src="/Images/ronaldo_222.webp" alt="">
-        </div>
-        <h2>haeding 1</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, facilis.</p>
+            <div class=" ">
+              <div class="my-4 mx-2 p-1">
+                <h2 class="text-2xl font-semibold leading-8">
+                  EXCLUSIVE: Erik Ten Hag is the new manchester united manager
+                </h2>
+              </div>
+              <hr />
+
+              <div class="mx-2 my-4 p-1">
+                <p class="text-xl leading-none">
+                  The new revolution at manchester united starts with the
+                  appointment of erik ten hag
+                </p>
+              </div>
+              <div class="mx-2 mt-4 mb-10 text-base p-1">
+                <span class="font-semibold text-gray-700"
+                  >Simon Stone - 23/15/2022</span
+                >
+              </div> 
+            </div>
+            
+          </div>
+          <!-- div for logos  -->
+          <div class="flex justify-center -mt-6 rounded-br-2xl rounded-bl-2xl bg-gray-300 ">
+            <img
+            class="my-2 h-10 w-10 rounded-full"
+            src="/Images/united_logo.jpg"
+            alt=""
+            />
+          </div>
+        </a>
+        <!-- div for card-2   -->
+        <a href="#">
+          <div class="w-72 my-4 rounded-tl-2xl rounded-tr-2xl p-3 bg-white hover:bg-gray-200">
+            <!-- image div for card  -->
+            <div class="">
+              <img
+                class="h-72 object-cover w-full rounded-2xl"
+                src="/Images/frenkie_de_jong_1.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class=" ">
+              <div class="my-4 mx-2 p-1">
+                <h2 class="text-2xl font-semibold leading-8">
+                  EXCLUSIVE: Erik Ten Hag is the new manchester united manager
+                </h2>
+              </div>
+              <hr />
+
+              <div class="mx-2 my-4 p-1">
+                <p class="text-xl leading-none">
+                  The new revolution at manchester united starts with the
+                  appointment of erik ten hag
+                </p>
+              </div>
+              <div class="mx-2 mt-4 mb-10 text-base p-1">
+                <span class="font-semibold text-gray-700"
+                  >Simon Stone - 23/15/2022</span
+                >
+              </div> 
+            </div>
+            
+          </div>
+          <!-- div for logos  -->
+          <div class="flex justify-center -mt-6 rounded-br-2xl rounded-bl-2xl bg-gray-300 ">
+            <img
+            class="my-2 h-10 w-10 rounded-full"
+            src="/Images/united_logo.jpg"
+            alt=""
+            />
+          </div>
+        </a>
+        <!-- div for card-3   -->
+        <a href="#">
+          <div class="w-72 my-4 rounded-tl-2xl rounded-tr-2xl p-3 bg-white hover:bg-gray-200">
+            <!-- image div for card  -->
+            <div class="">
+              <img
+                class="h-72 object-cover w-full rounded-2xl"
+                src="/Images/Maguire_1.JPG"
+                alt=""
+              />
+            </div>
+
+            <div class=" ">
+              <div class="my-4 mx-2 p-1">
+                <h2 class="text-2xl font-semibold leading-8">
+                  EXCLUSIVE: Erik Ten Hag is the new manchester united manager
+                </h2>
+              </div>
+              <hr />
+
+              <div class="mx-2 my-4 p-1">
+                <p class="text-xl leading-none">
+                  The new revolution at manchester united starts with the
+                  appointment of erik ten hag
+                </p>
+              </div>
+              <div class="mx-2 mt-4 mb-10 text-base p-1">
+                <span class="font-semibold text-gray-700"
+                  >Simon Stone - 23/15/2022</span
+                >
+              </div> 
+            </div>
+            
+          </div>
+          <!-- div for logos  -->
+          <div class="flex justify-center -mt-6 rounded-br-2xl rounded-bl-2xl bg-gray-300 ">
+            <img
+            class="my-2 h-10 w-10 rounded-full"
+            src="/Images/united_logo.jpg"
+            alt=""
+            />
+          </div>
+        </a>
+        <!-- div for card-4   -->
+        <a href="#">
+          <div class="w-72 my-4 rounded-tl-2xl rounded-tr-2xl p-3 bg-white hover:bg-gray-200">
+            <!-- image div for card  -->
+            <div class="">
+              <img
+                class="h-72 object-cover w-full rounded-2xl"
+                src="/Images/ralph_ragnick.JPG"
+                alt=""
+              />
+            </div>
+
+            <div class=" ">
+              <div class="my-4 mx-2 p-1">
+                <h2 class="text-2xl font-semibold leading-8">
+                  EXCLUSIVE: Erik Ten Hag is the new manchester united manager
+                </h2>
+              </div>
+              <hr />
+
+              <div class="mx-2 my-4 p-1">
+                <p class="text-xl leading-none">
+                  The new revolution at manchester united starts with the
+                  appointment of erik ten hag
+                </p>
+              </div>
+              <div class="mx-2 mt-4 mb-10 text-base p-1">
+                <span class="font-semibold text-gray-700"
+                  >Simon Stone - 23/15/2022</span
+                >
+              </div> 
+            </div>
+            
+          </div>
+          <!-- div for logos  -->
+          <div class="flex justify-center -mt-6 rounded-br-2xl rounded-bl-2xl bg-gray-300 ">
+            <img
+            class="my-2 h-10 w-10 rounded-full"
+            src="/Images/united_logo.jpg"
+            alt=""
+            />
+          </div>
+        </a>
       </div>
-      <!-- div for card-2   -->
-      <div class=" w-72 bg-blue-400">
-        <div class="">
-          <img class="h-96 object-cover w-full" src="/Images/united_fans.jpg" alt="">
-        </div>
-        <h2>haeding 1</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, facilis.</p>
-      </div>
-      <!-- div for card-3   -->
-      <div class="w-72 bg-pink-400">
-        <div class="">
-          <img class="h-96 object-cover w-full" src="/Images/Old_trafford_4.jpg" alt="">
-        </div>
-        <h2>haeding 1</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, facilis.</p>
-      </div>
-      <!-- div for card-4   -->
-      <div class=" w-72 bg-blue-400">
-        <div class="">
-          <img class="h-96 object-cover w-full" src="/Images/Old_trafford_42.jpg" alt="">
-        </div>
-        <h2>haeding 1</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, facilis.</p>
-      </div>
-    </div>
     </div>
   </body>
 
